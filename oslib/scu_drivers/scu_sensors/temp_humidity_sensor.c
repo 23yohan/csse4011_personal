@@ -13,6 +13,7 @@
 #include "temp_humidity_sensor.h"
 
 struct sensor_value temp, hum;
+// global struct
 
 extern void process_sample_temp_hum(const struct device *dev)
 {
